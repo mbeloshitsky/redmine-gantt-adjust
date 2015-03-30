@@ -1,0 +1,20 @@
+<table>
+  <tbody>
+    <tr>
+      <th>Start offset (in month)</th>
+      <td>
+        <input type="number" min="-12" max="12" id="settings_start_offset" 
+                           value="<%= settings['start_offset'] %>" 
+                           name="settings[start_offset]" >
+      </td>
+    </tr>
+    <tr>
+      <th>Window size</th>
+      <td>
+        <input type="number" min="0" max="25" id="settings_window_size" 
+                           value="<%= settings['window_size'] %>" 
+                           name="settings[window_size]" >
+      </td>
+    </tr>
+  </tbody>
+</table>
