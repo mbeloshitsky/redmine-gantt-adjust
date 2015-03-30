@@ -12,5 +12,5 @@ Redmine::Plugin.register :gantt_adjust do
 
   requires_redmine :version_or_higher => '2.3.0'
 
-  settings :default => {'empty' => true}, :partial => 'settings/gantt_settings'
+  settings :default => {'empty' => true}, :partial => 'settings/gantt_adjustments'
 end
